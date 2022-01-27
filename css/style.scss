@@ -249,6 +249,12 @@ main{
 	padding-top: 6rem;
 	aside{
 		display: none;
+
+		.filter{
+			color: var(--primary-color);
+			text-decoration: underline;
+			margin-top: .5rem;
+		}
 	}
 
 	.resources{
@@ -397,7 +403,7 @@ main{
 	}
 }
 
-@media (min-width: 900px){
+@media (min-width: 1024px){
 	main{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;

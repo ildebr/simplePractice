@@ -208,6 +208,11 @@ main {
 main aside {
   display: none;
 }
+main aside .filter {
+  color: var(--primary-color);
+  text-decoration: underline;
+  margin-top: 0.5rem;
+}
 main .resources .filter-title {
   font-weight: 400;
   margin-bottom: 1rem;
@@ -324,7 +329,7 @@ main .resources .free-trial .benefits .benefit .checkmark {
     margin: 0 12px;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
